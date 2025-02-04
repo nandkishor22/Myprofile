@@ -365,12 +365,4 @@ body {
     transform: scale(1.05);
 }
 
-@media (max-width: 768px) {
-    .gradient-text {
-        font-size: 2.5rem;
-    }
-    
-    .skills-grid {
-        grid-template-columns: 1fr;
-    }
-}
+/* Mobile styles removed to maintain desktop layout */
