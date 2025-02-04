@@ -121,6 +121,24 @@ body {
     transition: transform 0.3s ease;
 }
 
+@media (max-width: 768px) {
+    .profile-container {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 30px rgba(0,255,255,0.4);
+    }
+    
+    .profile-img {
+        border-width: 2px;
+    }
+    
+    .animated-border {
+        border-width: 2px;
+        animation-duration: 1.5s;
+    }
+}
+
 .profile-img {
     width: 100%;
     height: 100%;
